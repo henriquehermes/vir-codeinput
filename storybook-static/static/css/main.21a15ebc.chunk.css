@@ -1,0 +1,50 @@
+/* add css styles here (optional) */
+
+.react-code-input-container {
+	position: relative;
+}
+
+.react-code-input > input {
+	border: none;
+	border-bottom: solid 3px #fd729d;
+	font-family: "Lato";
+	font-size: 30px;
+	background-color: transparent;
+	color: #fff;
+	caret-color: #fd729d;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 0;
+	-webkit-appearance: initial;
+	margin-right: 22px;
+}
+
+.react-code-input > input:last-child {
+	margin-right: 0px;
+}
+
+.react-code-input > input:focus {
+	outline: none;
+}
+
+.react-code-input > input[value=""] {
+	border-bottom: solid 3px #626262;
+}
+
+.blur {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	opacity: 0.5;
+	-webkit-filter: blur(0.5px);
+	        filter: blur(0.5px);
+	transition: opacity 0.3s;
+}
+
+
+/*# sourceMappingURL=main.21a15ebc.chunk.css.map*/

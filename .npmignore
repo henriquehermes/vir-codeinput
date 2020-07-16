@@ -1,0 +1,7 @@
+node_modules
+src
+
+.github
+__tests__
+yarn-error.log
+.out
